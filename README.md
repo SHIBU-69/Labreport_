@@ -208,3 +208,10 @@ Building ML models without external deep learning frameworks.
  ## Resources
  GitHub link: https://github.com/SHIBU-69/Labreport_/blob/main/222002061_CSE412_222D3_LabReport03_mlpFromScratch.ipynb
 
+## Author
+- Name: Al Motakabbir Mahmud Shihab  
+- ID: 222002061  
+- University: Green University of Bangladesh  
+- Course: CSE 412 (Machine Learning Lab), Section: 222 D3  
+
+
