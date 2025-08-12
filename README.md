@@ -123,3 +123,88 @@ Author
 
 GitHub Repository
 GitHub Notebook Link](https://github.com/SHIBU-69/Labreport_/blob/main/222002061_CSE312_222D3_LabReport02_knnFromScratch.ipynb)
+# MLP from Scratch – XOR Problem
+
+## 📌 Overview
+This project implements and evaluates a **Multi-Layer Perceptron (MLP)** from scratch in Python to solve the **XOR classification problem**.  
+It uses only `numpy` and `matplotlib`, with no machine learning libraries such as TensorFlow or PyTorch.  
+
+The implementation includes:
+- **Sigmoid** and **ReLU** activation functions (with derivatives).
+- Custom evaluation metrics: **accuracy**, **precision**, **recall**, **F1 score**.
+- **ROC curve** and **loss curve** visualization.
+- Hyperparameter tuning for **learning rate**, **epochs**, and **activation functions**.
+
+---
+
+## 🎯 Objective
+The aim is to:
+1. Build and train an MLP with one hidden layer.
+2. Implement forward and backward propagation manually.
+3. Evaluate performance using custom metrics and visualization.
+4. Tune hyperparameters to achieve optimal accuracy.
+5. Demonstrate MLP learning on a non-linearly separable dataset.
+
+---
+
+## 🛠 Features
+- XOR dataset preparation.
+- Two activation function options: **Sigmoid** or **ReLU** in the hidden layer.
+- Manual weight initialization and gradient descent updates.
+- Hyperparameter tuning for:
+  - Learning rate
+  - Number of epochs
+  - Activation function choice
+- Visualization:
+  - **Training loss curve**
+  - **ROC curve**
+
+---
+
+##  File Structure
+├── mlp_from_scratch.py     # Main Python script
+├── README.md               # Project documentation
+└── requirements.txt        # Dependencies
+
+## How to Run
+
+1. Clone the repository:
+git clone https://github.com/SHIBU-69/Labreport_.git
+cd Labreport_
+
+3. Install dependencies:
+pip install -r requirements.txt
+
+3.Run the script:
+python mlp_from_scratch.py
+
+## Example Output
+
+1. Best Configuration (example):
+Best Config -> LR: 0.1, Epochs: 1000, Activation: relu, Accuracy: 1.0000
+
+2. Metrics:
+   Accuracy: 1.0
+Precision: 1.0
+Recall: 1.0
+F1 Score: 1.0
+
+3.Visualizations:
+ROC Curve
+Training Loss Curve
+
+## Results & Conclusion
+
+The MLP successfully learns the non-linear decision boundary of the XOR problem.
+With proper hyperparameter tuning, the model achieves perfect classification.
+This project demonstrates:
+
+The core mechanics of neural networks.
+
+The importance of activation functions and hyperparameters.
+
+Building ML models without external deep learning frameworks.
+
+ ## Resources
+ GitHub link: https://github.com/SHIBU-69/Labreport_/blob/main/222002061_CSE412_222D3_LabReport03_mlpFromScratch.ipynb
+
