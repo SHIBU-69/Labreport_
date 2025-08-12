@@ -125,7 +125,7 @@ GitHub Repository
 GitHub Notebook Link](https://github.com/SHIBU-69/Labreport_/blob/main/222002061_CSE312_222D3_LabReport02_knnFromScratch.ipynb)
 # MLP from Scratch – XOR Problem
 
-## 📌 Overview
+##  Overview
 This project implements and evaluates a **Multi-Layer Perceptron (MLP)** from scratch in Python to solve the **XOR classification problem**.  
 It uses only `numpy` and `matplotlib`, with no machine learning libraries such as TensorFlow or PyTorch.  
 
@@ -137,7 +137,7 @@ The implementation includes:
 
 ---
 
-## 🎯 Objective
+##  Objective
 The aim is to:
 1. Build and train an MLP with one hidden layer.
 2. Implement forward and backward propagation manually.
@@ -147,7 +147,7 @@ The aim is to:
 
 ---
 
-## 🛠 Features
+##  Features
 - XOR dataset preparation.
 - Two activation function options: **Sigmoid** or **ReLU** in the hidden layer.
 - Manual weight initialization and gradient descent updates.
